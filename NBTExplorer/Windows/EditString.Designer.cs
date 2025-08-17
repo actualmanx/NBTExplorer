@@ -34,19 +34,21 @@
             // 
             // _stringField
             // 
-            this._stringField.Location = new System.Drawing.Point(12, 12);
+            this._stringField.Location = new System.Drawing.Point(18, 18);
+            this._stringField.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this._stringField.Multiline = true;
             this._stringField.Name = "_stringField";
-            this._stringField.Size = new System.Drawing.Size(331, 116);
+            this._stringField.Size = new System.Drawing.Size(494, 176);
             this._stringField.TabIndex = 4;
             // 
             // _buttonCancel
             // 
             this._buttonCancel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this._buttonCancel.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this._buttonCancel.Location = new System.Drawing.Point(187, 134);
+            this._buttonCancel.Location = new System.Drawing.Point(280, 206);
+            this._buttonCancel.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this._buttonCancel.Name = "_buttonCancel";
-            this._buttonCancel.Size = new System.Drawing.Size(75, 23);
+            this._buttonCancel.Size = new System.Drawing.Size(112, 35);
             this._buttonCancel.TabIndex = 9;
             this._buttonCancel.Text = "Cancel";
             this._buttonCancel.UseVisualStyleBackColor = true;
@@ -54,9 +56,10 @@
             // _buttonOK
             // 
             this._buttonOK.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this._buttonOK.Location = new System.Drawing.Point(268, 134);
+            this._buttonOK.Location = new System.Drawing.Point(402, 206);
+            this._buttonOK.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this._buttonOK.Name = "_buttonOK";
-            this._buttonOK.Size = new System.Drawing.Size(75, 23);
+            this._buttonOK.Size = new System.Drawing.Size(112, 35);
             this._buttonOK.TabIndex = 8;
             this._buttonOK.Text = "OK";
             this._buttonOK.UseVisualStyleBackColor = true;
@@ -64,20 +67,23 @@
             // 
             // EditString
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.CancelButton = this._buttonCancel;
-            this.ClientSize = new System.Drawing.Size(355, 169);
+            this.ClientSize = new System.Drawing.Size(532, 260);
             this.Controls.Add(this._buttonCancel);
             this.Controls.Add(this._buttonOK);
             this.Controls.Add(this._stringField);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "EditString";
             this.ShowIcon = false;
             this.ShowInTaskbar = false;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Edit String...";
+            this.TopMost = true;
             this.ResumeLayout(false);
             this.PerformLayout();
 

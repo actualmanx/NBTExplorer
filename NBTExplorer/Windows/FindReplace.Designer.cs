@@ -89,9 +89,11 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.groupBox1.Controls.Add(this.panel1);
-            this.groupBox1.Location = new System.Drawing.Point(3, 3);
+            this.groupBox1.Location = new System.Drawing.Point(4, 5);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(341, 211);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.groupBox1.Size = new System.Drawing.Size(512, 324);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Find";
@@ -103,9 +105,10 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.panel1.Controls.Add(this.treeView1);
             this.panel1.Controls.Add(this.toolStrip1);
-            this.panel1.Location = new System.Drawing.Point(6, 19);
+            this.panel1.Location = new System.Drawing.Point(9, 29);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(329, 186);
+            this.panel1.Size = new System.Drawing.Size(494, 285);
             this.panel1.TabIndex = 0;
             // 
             // treeView1
@@ -114,12 +117,13 @@
             this.treeView1.ImageIndex = 0;
             this.treeView1.ImageList = this.imageList1;
             this.treeView1.ItemHeight = 18;
-            this.treeView1.Location = new System.Drawing.Point(0, 25);
+            this.treeView1.Location = new System.Drawing.Point(0, 33);
+            this.treeView1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.treeView1.Name = "treeView1";
             this.treeView1.SelectedImageIndex = 0;
             this.treeView1.ShowPlusMinus = false;
             this.treeView1.ShowRootLines = false;
-            this.treeView1.Size = new System.Drawing.Size(329, 161);
+            this.treeView1.Size = new System.Drawing.Size(494, 252);
             this.treeView1.TabIndex = 1;
             // 
             // imageList1
@@ -152,6 +156,7 @@
             // toolStrip1
             // 
             this.toolStrip1.GripStyle = System.Windows.Forms.ToolStripGripStyle.Hidden;
+            this.toolStrip1.ImageScalingSize = new System.Drawing.Size(24, 24);
             this.toolStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this._tbFindEdit,
             this._tbFindDelete,
@@ -169,7 +174,8 @@
             this._tbFindString});
             this.toolStrip1.Location = new System.Drawing.Point(0, 0);
             this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.Size = new System.Drawing.Size(329, 25);
+            this.toolStrip1.Padding = new System.Windows.Forms.Padding(0, 0, 3, 0);
+            this.toolStrip1.Size = new System.Drawing.Size(494, 33);
             this.toolStrip1.TabIndex = 0;
             this.toolStrip1.Text = "toolStrip1";
             // 
@@ -179,7 +185,7 @@
             this._tbFindEdit.Image = ((System.Drawing.Image)(resources.GetObject("_tbFindEdit.Image")));
             this._tbFindEdit.ImageTransparentColor = System.Drawing.Color.Magenta;
             this._tbFindEdit.Name = "_tbFindEdit";
-            this._tbFindEdit.Size = new System.Drawing.Size(23, 22);
+            this._tbFindEdit.Size = new System.Drawing.Size(34, 28);
             this._tbFindEdit.Text = "Edit Selected Rule";
             this._tbFindEdit.Click += new System.EventHandler(this._tbFindEdit_Click);
             // 
@@ -189,14 +195,14 @@
             this._tbFindDelete.Image = ((System.Drawing.Image)(resources.GetObject("_tbFindDelete.Image")));
             this._tbFindDelete.ImageTransparentColor = System.Drawing.Color.Magenta;
             this._tbFindDelete.Name = "_tbFindDelete";
-            this._tbFindDelete.Size = new System.Drawing.Size(23, 22);
+            this._tbFindDelete.Size = new System.Drawing.Size(34, 28);
             this._tbFindDelete.Text = "Delete Selected Rule";
             this._tbFindDelete.Click += new System.EventHandler(this._tbFindDelete_Click);
             // 
             // toolStripSeparator1
             // 
             this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(6, 25);
+            this.toolStripSeparator1.Size = new System.Drawing.Size(6, 33);
             // 
             // _tbFindGroupAnd
             // 
@@ -204,7 +210,7 @@
             this._tbFindGroupAnd.Image = ((System.Drawing.Image)(resources.GetObject("_tbFindGroupAnd.Image")));
             this._tbFindGroupAnd.ImageTransparentColor = System.Drawing.Color.Magenta;
             this._tbFindGroupAnd.Name = "_tbFindGroupAnd";
-            this._tbFindGroupAnd.Size = new System.Drawing.Size(23, 22);
+            this._tbFindGroupAnd.Size = new System.Drawing.Size(34, 28);
             this._tbFindGroupAnd.Text = "Add Match-All Group";
             this._tbFindGroupAnd.Click += new System.EventHandler(this._tbFindGroupAnd_Click);
             // 
@@ -214,14 +220,14 @@
             this._tbFindGroupOr.Image = ((System.Drawing.Image)(resources.GetObject("_tbFindGroupOr.Image")));
             this._tbFindGroupOr.ImageTransparentColor = System.Drawing.Color.Magenta;
             this._tbFindGroupOr.Name = "_tbFindGroupOr";
-            this._tbFindGroupOr.Size = new System.Drawing.Size(23, 22);
+            this._tbFindGroupOr.Size = new System.Drawing.Size(34, 28);
             this._tbFindGroupOr.Text = "Add Match-Any Group";
             this._tbFindGroupOr.Click += new System.EventHandler(this._tbFindGroupOr_Click);
             // 
             // toolStripSeparator3
             // 
             this.toolStripSeparator3.Name = "toolStripSeparator3";
-            this.toolStripSeparator3.Size = new System.Drawing.Size(6, 25);
+            this.toolStripSeparator3.Size = new System.Drawing.Size(6, 33);
             // 
             // _tbFindAny
             // 
@@ -229,7 +235,7 @@
             this._tbFindAny.Image = ((System.Drawing.Image)(resources.GetObject("_tbFindAny.Image")));
             this._tbFindAny.ImageTransparentColor = System.Drawing.Color.Magenta;
             this._tbFindAny.Name = "_tbFindAny";
-            this._tbFindAny.Size = new System.Drawing.Size(23, 22);
+            this._tbFindAny.Size = new System.Drawing.Size(34, 28);
             this._tbFindAny.Text = "Add Any-Type Tag Rule";
             this._tbFindAny.Click += new System.EventHandler(this._tbFindAny_Click);
             // 
@@ -239,7 +245,7 @@
             this._tbFindByte.Image = ((System.Drawing.Image)(resources.GetObject("_tbFindByte.Image")));
             this._tbFindByte.ImageTransparentColor = System.Drawing.Color.Magenta;
             this._tbFindByte.Name = "_tbFindByte";
-            this._tbFindByte.Size = new System.Drawing.Size(23, 22);
+            this._tbFindByte.Size = new System.Drawing.Size(34, 28);
             this._tbFindByte.Text = "Add Byte Tag Rule";
             this._tbFindByte.Click += new System.EventHandler(this._tbFindByte_Click);
             // 
@@ -249,7 +255,7 @@
             this._tbFindShort.Image = ((System.Drawing.Image)(resources.GetObject("_tbFindShort.Image")));
             this._tbFindShort.ImageTransparentColor = System.Drawing.Color.Magenta;
             this._tbFindShort.Name = "_tbFindShort";
-            this._tbFindShort.Size = new System.Drawing.Size(23, 22);
+            this._tbFindShort.Size = new System.Drawing.Size(34, 28);
             this._tbFindShort.Text = "Add Short Tag Rule";
             this._tbFindShort.Click += new System.EventHandler(this._tbFindShort_Click);
             // 
@@ -259,7 +265,7 @@
             this._tbFindInt.Image = ((System.Drawing.Image)(resources.GetObject("_tbFindInt.Image")));
             this._tbFindInt.ImageTransparentColor = System.Drawing.Color.Magenta;
             this._tbFindInt.Name = "_tbFindInt";
-            this._tbFindInt.Size = new System.Drawing.Size(23, 22);
+            this._tbFindInt.Size = new System.Drawing.Size(34, 28);
             this._tbFindInt.Text = "Add Int Tag Rule";
             this._tbFindInt.Click += new System.EventHandler(this._tbFindInt_Click);
             // 
@@ -269,7 +275,7 @@
             this._tbFindLong.Image = ((System.Drawing.Image)(resources.GetObject("_tbFindLong.Image")));
             this._tbFindLong.ImageTransparentColor = System.Drawing.Color.Magenta;
             this._tbFindLong.Name = "_tbFindLong";
-            this._tbFindLong.Size = new System.Drawing.Size(23, 22);
+            this._tbFindLong.Size = new System.Drawing.Size(34, 28);
             this._tbFindLong.Text = "Add Long Tag Rule";
             this._tbFindLong.Click += new System.EventHandler(this._tbFindLong_Click);
             // 
@@ -279,7 +285,7 @@
             this._tbFindFloat.Image = ((System.Drawing.Image)(resources.GetObject("_tbFindFloat.Image")));
             this._tbFindFloat.ImageTransparentColor = System.Drawing.Color.Magenta;
             this._tbFindFloat.Name = "_tbFindFloat";
-            this._tbFindFloat.Size = new System.Drawing.Size(23, 22);
+            this._tbFindFloat.Size = new System.Drawing.Size(34, 28);
             this._tbFindFloat.Text = "Add Float Tag Rule";
             this._tbFindFloat.Click += new System.EventHandler(this._tbFindFloat_Click);
             // 
@@ -289,7 +295,7 @@
             this._tbFindDouble.Image = ((System.Drawing.Image)(resources.GetObject("_tbFindDouble.Image")));
             this._tbFindDouble.ImageTransparentColor = System.Drawing.Color.Magenta;
             this._tbFindDouble.Name = "_tbFindDouble";
-            this._tbFindDouble.Size = new System.Drawing.Size(23, 22);
+            this._tbFindDouble.Size = new System.Drawing.Size(34, 28);
             this._tbFindDouble.Text = "Add Double Tag Rule";
             this._tbFindDouble.Click += new System.EventHandler(this._tbFindDouble_Click);
             // 
@@ -299,7 +305,7 @@
             this._tbFindString.Image = ((System.Drawing.Image)(resources.GetObject("_tbFindString.Image")));
             this._tbFindString.ImageTransparentColor = System.Drawing.Color.Magenta;
             this._tbFindString.Name = "_tbFindString";
-            this._tbFindString.Size = new System.Drawing.Size(23, 22);
+            this._tbFindString.Size = new System.Drawing.Size(34, 28);
             this._tbFindString.Text = "Add Text Tag Rule";
             this._tbFindString.Click += new System.EventHandler(this._tbFindString_Click);
             // 
@@ -310,9 +316,11 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.groupBox2.Controls.Add(this._deleteTagsCheckbox);
             this.groupBox2.Controls.Add(this.panel2);
-            this.groupBox2.Location = new System.Drawing.Point(350, 3);
+            this.groupBox2.Location = new System.Drawing.Point(524, 5);
+            this.groupBox2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(341, 211);
+            this.groupBox2.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.groupBox2.Size = new System.Drawing.Size(513, 324);
             this.groupBox2.TabIndex = 1;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Replace";
@@ -321,9 +329,10 @@
             // 
             this._deleteTagsCheckbox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this._deleteTagsCheckbox.AutoSize = true;
-            this._deleteTagsCheckbox.Location = new System.Drawing.Point(6, 188);
+            this._deleteTagsCheckbox.Location = new System.Drawing.Point(9, 290);
+            this._deleteTagsCheckbox.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this._deleteTagsCheckbox.Name = "_deleteTagsCheckbox";
-            this._deleteTagsCheckbox.Size = new System.Drawing.Size(268, 17);
+            this._deleteTagsCheckbox.Size = new System.Drawing.Size(399, 24);
             this._deleteTagsCheckbox.TabIndex = 1;
             this._deleteTagsCheckbox.Text = "Delete matched tags before applying replacements.";
             this._deleteTagsCheckbox.UseVisualStyleBackColor = true;
@@ -335,9 +344,10 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.panel2.Controls.Add(this.treeView2);
             this.panel2.Controls.Add(this.toolStrip2);
-            this.panel2.Location = new System.Drawing.Point(6, 19);
+            this.panel2.Location = new System.Drawing.Point(9, 29);
+            this.panel2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(329, 163);
+            this.panel2.Size = new System.Drawing.Size(495, 250);
             this.panel2.TabIndex = 0;
             // 
             // treeView2
@@ -346,17 +356,19 @@
             this.treeView2.ImageIndex = 0;
             this.treeView2.ImageList = this.imageList1;
             this.treeView2.ItemHeight = 18;
-            this.treeView2.Location = new System.Drawing.Point(0, 25);
+            this.treeView2.Location = new System.Drawing.Point(0, 33);
+            this.treeView2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.treeView2.Name = "treeView2";
             this.treeView2.SelectedImageIndex = 0;
             this.treeView2.ShowPlusMinus = false;
             this.treeView2.ShowRootLines = false;
-            this.treeView2.Size = new System.Drawing.Size(329, 138);
+            this.treeView2.Size = new System.Drawing.Size(495, 217);
             this.treeView2.TabIndex = 1;
             // 
             // toolStrip2
             // 
             this.toolStrip2.GripStyle = System.Windows.Forms.ToolStripGripStyle.Hidden;
+            this.toolStrip2.ImageScalingSize = new System.Drawing.Size(24, 24);
             this.toolStrip2.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this._tbReplaceEdit,
             this._tbReplaceDelete,
@@ -375,7 +387,8 @@
             this._tbReplaceCompound});
             this.toolStrip2.Location = new System.Drawing.Point(0, 0);
             this.toolStrip2.Name = "toolStrip2";
-            this.toolStrip2.Size = new System.Drawing.Size(329, 25);
+            this.toolStrip2.Padding = new System.Windows.Forms.Padding(0, 0, 3, 0);
+            this.toolStrip2.Size = new System.Drawing.Size(495, 33);
             this.toolStrip2.TabIndex = 0;
             this.toolStrip2.Text = "toolStrip2";
             // 
@@ -385,7 +398,7 @@
             this._tbReplaceEdit.Image = ((System.Drawing.Image)(resources.GetObject("_tbReplaceEdit.Image")));
             this._tbReplaceEdit.ImageTransparentColor = System.Drawing.Color.Magenta;
             this._tbReplaceEdit.Name = "_tbReplaceEdit";
-            this._tbReplaceEdit.Size = new System.Drawing.Size(23, 22);
+            this._tbReplaceEdit.Size = new System.Drawing.Size(34, 28);
             this._tbReplaceEdit.Text = "Edit Selected Tag";
             this._tbReplaceEdit.Click += new System.EventHandler(this._tbReplaceEdit_Click);
             // 
@@ -395,14 +408,14 @@
             this._tbReplaceDelete.Image = ((System.Drawing.Image)(resources.GetObject("_tbReplaceDelete.Image")));
             this._tbReplaceDelete.ImageTransparentColor = System.Drawing.Color.Magenta;
             this._tbReplaceDelete.Name = "_tbReplaceDelete";
-            this._tbReplaceDelete.Size = new System.Drawing.Size(23, 22);
+            this._tbReplaceDelete.Size = new System.Drawing.Size(34, 28);
             this._tbReplaceDelete.Text = "Delete Selected Tag";
             this._tbReplaceDelete.Click += new System.EventHandler(this._tbReplaceDelete_Click);
             // 
             // toolStripSeparator2
             // 
             this.toolStripSeparator2.Name = "toolStripSeparator2";
-            this.toolStripSeparator2.Size = new System.Drawing.Size(6, 25);
+            this.toolStripSeparator2.Size = new System.Drawing.Size(6, 33);
             // 
             // _tbReplaceByte
             // 
@@ -410,7 +423,7 @@
             this._tbReplaceByte.Image = ((System.Drawing.Image)(resources.GetObject("_tbReplaceByte.Image")));
             this._tbReplaceByte.ImageTransparentColor = System.Drawing.Color.Magenta;
             this._tbReplaceByte.Name = "_tbReplaceByte";
-            this._tbReplaceByte.Size = new System.Drawing.Size(23, 22);
+            this._tbReplaceByte.Size = new System.Drawing.Size(34, 28);
             this._tbReplaceByte.Text = "Add Byte Tag";
             this._tbReplaceByte.Click += new System.EventHandler(this._tbReplaceByte_Click);
             // 
@@ -420,7 +433,7 @@
             this._tbReplaceShort.Image = ((System.Drawing.Image)(resources.GetObject("_tbReplaceShort.Image")));
             this._tbReplaceShort.ImageTransparentColor = System.Drawing.Color.Magenta;
             this._tbReplaceShort.Name = "_tbReplaceShort";
-            this._tbReplaceShort.Size = new System.Drawing.Size(23, 22);
+            this._tbReplaceShort.Size = new System.Drawing.Size(34, 28);
             this._tbReplaceShort.Text = "Add Short Tag";
             this._tbReplaceShort.Click += new System.EventHandler(this._tbReplaceShort_Click);
             // 
@@ -430,7 +443,7 @@
             this._tbReplaceInt.Image = ((System.Drawing.Image)(resources.GetObject("_tbReplaceInt.Image")));
             this._tbReplaceInt.ImageTransparentColor = System.Drawing.Color.Magenta;
             this._tbReplaceInt.Name = "_tbReplaceInt";
-            this._tbReplaceInt.Size = new System.Drawing.Size(23, 22);
+            this._tbReplaceInt.Size = new System.Drawing.Size(34, 28);
             this._tbReplaceInt.Text = "Add Int Tag";
             this._tbReplaceInt.Click += new System.EventHandler(this._tbReplaceInt_Click);
             // 
@@ -440,7 +453,7 @@
             this._tbReplaceLong.Image = ((System.Drawing.Image)(resources.GetObject("_tbReplaceLong.Image")));
             this._tbReplaceLong.ImageTransparentColor = System.Drawing.Color.Magenta;
             this._tbReplaceLong.Name = "_tbReplaceLong";
-            this._tbReplaceLong.Size = new System.Drawing.Size(23, 22);
+            this._tbReplaceLong.Size = new System.Drawing.Size(34, 28);
             this._tbReplaceLong.Text = "Add Long Tag";
             this._tbReplaceLong.Click += new System.EventHandler(this._tbReplaceLong_Click);
             // 
@@ -450,7 +463,7 @@
             this._tbReplaceFloat.Image = ((System.Drawing.Image)(resources.GetObject("_tbReplaceFloat.Image")));
             this._tbReplaceFloat.ImageTransparentColor = System.Drawing.Color.Magenta;
             this._tbReplaceFloat.Name = "_tbReplaceFloat";
-            this._tbReplaceFloat.Size = new System.Drawing.Size(23, 22);
+            this._tbReplaceFloat.Size = new System.Drawing.Size(34, 28);
             this._tbReplaceFloat.Text = "Add Float Tag";
             this._tbReplaceFloat.Click += new System.EventHandler(this._tbReplaceFloat_Click);
             // 
@@ -460,7 +473,7 @@
             this._tbReplaceDouble.Image = ((System.Drawing.Image)(resources.GetObject("_tbReplaceDouble.Image")));
             this._tbReplaceDouble.ImageTransparentColor = System.Drawing.Color.Magenta;
             this._tbReplaceDouble.Name = "_tbReplaceDouble";
-            this._tbReplaceDouble.Size = new System.Drawing.Size(23, 22);
+            this._tbReplaceDouble.Size = new System.Drawing.Size(34, 28);
             this._tbReplaceDouble.Text = "Add Double Tag";
             this._tbReplaceDouble.Click += new System.EventHandler(this._tbReplaceDouble_Click);
             // 
@@ -470,7 +483,7 @@
             this._tbReplaceByteArray.Image = ((System.Drawing.Image)(resources.GetObject("_tbReplaceByteArray.Image")));
             this._tbReplaceByteArray.ImageTransparentColor = System.Drawing.Color.Magenta;
             this._tbReplaceByteArray.Name = "_tbReplaceByteArray";
-            this._tbReplaceByteArray.Size = new System.Drawing.Size(23, 22);
+            this._tbReplaceByteArray.Size = new System.Drawing.Size(34, 28);
             this._tbReplaceByteArray.Text = "Add Byte Array Tag";
             this._tbReplaceByteArray.Click += new System.EventHandler(this._tbReplaceByteArray_Click);
             // 
@@ -480,7 +493,7 @@
             this._tbReplaceIntArray.Image = ((System.Drawing.Image)(resources.GetObject("_tbReplaceIntArray.Image")));
             this._tbReplaceIntArray.ImageTransparentColor = System.Drawing.Color.Magenta;
             this._tbReplaceIntArray.Name = "_tbReplaceIntArray";
-            this._tbReplaceIntArray.Size = new System.Drawing.Size(23, 22);
+            this._tbReplaceIntArray.Size = new System.Drawing.Size(34, 28);
             this._tbReplaceIntArray.Text = "Add Int Array Tag";
             this._tbReplaceIntArray.Click += new System.EventHandler(this._tbReplaceIntArray_Click);
             // 
@@ -490,7 +503,7 @@
             this._tbReplaceLongArray.Image = ((System.Drawing.Image)(resources.GetObject("_tbReplaceLongArray.Image")));
             this._tbReplaceLongArray.ImageTransparentColor = System.Drawing.Color.Magenta;
             this._tbReplaceLongArray.Name = "_tbReplaceLongArray";
-            this._tbReplaceLongArray.Size = new System.Drawing.Size(23, 22);
+            this._tbReplaceLongArray.Size = new System.Drawing.Size(34, 28);
             this._tbReplaceLongArray.Text = "Add Long Array Tag";
             this._tbReplaceLongArray.Click += new System.EventHandler(this._tbReplaceLongArray_Click);
             // 
@@ -500,7 +513,7 @@
             this._tbReplaceString.Image = ((System.Drawing.Image)(resources.GetObject("_tbReplaceString.Image")));
             this._tbReplaceString.ImageTransparentColor = System.Drawing.Color.Magenta;
             this._tbReplaceString.Name = "_tbReplaceString";
-            this._tbReplaceString.Size = new System.Drawing.Size(23, 22);
+            this._tbReplaceString.Size = new System.Drawing.Size(34, 28);
             this._tbReplaceString.Text = "Add String Tag";
             this._tbReplaceString.Click += new System.EventHandler(this._tbReplaceString_Click);
             // 
@@ -510,7 +523,7 @@
             this._tbReplaceList.Image = ((System.Drawing.Image)(resources.GetObject("_tbReplaceList.Image")));
             this._tbReplaceList.ImageTransparentColor = System.Drawing.Color.Magenta;
             this._tbReplaceList.Name = "_tbReplaceList";
-            this._tbReplaceList.Size = new System.Drawing.Size(23, 22);
+            this._tbReplaceList.Size = new System.Drawing.Size(34, 28);
             this._tbReplaceList.Text = "Add List Tag";
             this._tbReplaceList.Click += new System.EventHandler(this._tbReplaceList_Click);
             // 
@@ -520,16 +533,17 @@
             this._tbReplaceCompound.Image = ((System.Drawing.Image)(resources.GetObject("_tbReplaceCompound.Image")));
             this._tbReplaceCompound.ImageTransparentColor = System.Drawing.Color.Magenta;
             this._tbReplaceCompound.Name = "_tbReplaceCompound";
-            this._tbReplaceCompound.Size = new System.Drawing.Size(23, 22);
+            this._tbReplaceCompound.Size = new System.Drawing.Size(34, 28);
             this._tbReplaceCompound.Text = "Add Compound Tag";
             this._tbReplaceCompound.Click += new System.EventHandler(this._tbReplaceCompound_Click);
             // 
             // _buttonFind
             // 
             this._buttonFind.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this._buttonFind.Location = new System.Drawing.Point(550, 251);
+            this._buttonFind.Location = new System.Drawing.Point(825, 386);
+            this._buttonFind.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this._buttonFind.Name = "_buttonFind";
-            this._buttonFind.Size = new System.Drawing.Size(75, 23);
+            this._buttonFind.Size = new System.Drawing.Size(112, 35);
             this._buttonFind.TabIndex = 2;
             this._buttonFind.Text = "Find Next";
             this._buttonFind.UseVisualStyleBackColor = true;
@@ -538,9 +552,10 @@
             // _buttonReplace
             // 
             this._buttonReplace.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this._buttonReplace.Location = new System.Drawing.Point(631, 251);
+            this._buttonReplace.Location = new System.Drawing.Point(946, 386);
+            this._buttonReplace.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this._buttonReplace.Name = "_buttonReplace";
-            this._buttonReplace.Size = new System.Drawing.Size(75, 23);
+            this._buttonReplace.Size = new System.Drawing.Size(112, 35);
             this._buttonReplace.TabIndex = 3;
             this._buttonReplace.Text = "Replace";
             this._buttonReplace.UseVisualStyleBackColor = true;
@@ -549,9 +564,10 @@
             // _buttonReplaceAll
             // 
             this._buttonReplaceAll.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this._buttonReplaceAll.Location = new System.Drawing.Point(631, 280);
+            this._buttonReplaceAll.Location = new System.Drawing.Point(946, 431);
+            this._buttonReplaceAll.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this._buttonReplaceAll.Name = "_buttonReplaceAll";
-            this._buttonReplaceAll.Size = new System.Drawing.Size(75, 23);
+            this._buttonReplaceAll.Size = new System.Drawing.Size(112, 35);
             this._buttonReplaceAll.TabIndex = 4;
             this._buttonReplaceAll.Text = "Replace All";
             this._buttonReplaceAll.UseVisualStyleBackColor = true;
@@ -560,9 +576,10 @@
             // _buttonCancel
             // 
             this._buttonCancel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this._buttonCancel.Location = new System.Drawing.Point(12, 251);
+            this._buttonCancel.Location = new System.Drawing.Point(18, 386);
+            this._buttonCancel.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this._buttonCancel.Name = "_buttonCancel";
-            this._buttonCancel.Size = new System.Drawing.Size(75, 23);
+            this._buttonCancel.Size = new System.Drawing.Size(112, 35);
             this._buttonCancel.TabIndex = 5;
             this._buttonCancel.Text = "Cancel";
             this._buttonCancel.UseVisualStyleBackColor = true;
@@ -570,9 +587,11 @@
             // 
             // _explorerStrip
             // 
+            this._explorerStrip.ImageScalingSize = new System.Drawing.Size(24, 24);
             this._explorerStrip.Location = new System.Drawing.Point(0, 0);
             this._explorerStrip.Name = "_explorerStrip";
-            this._explorerStrip.Size = new System.Drawing.Size(718, 25);
+            this._explorerStrip.Padding = new System.Windows.Forms.Padding(0, 0, 3, 0);
+            this._explorerStrip.Size = new System.Drawing.Size(1077, 25);
             this._explorerStrip.TabIndex = 7;
             this._explorerStrip.Text = "toolStrip3";
             // 
@@ -586,18 +605,19 @@
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel1.Controls.Add(this.groupBox1, 0, 0);
             this.tableLayoutPanel1.Controls.Add(this.groupBox2, 1, 0);
-            this.tableLayoutPanel1.Location = new System.Drawing.Point(12, 28);
+            this.tableLayoutPanel1.Location = new System.Drawing.Point(18, 43);
+            this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 1;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(694, 217);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(1041, 334);
             this.tableLayoutPanel1.TabIndex = 8;
             // 
             // FindReplace
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(718, 314);
+            this.ClientSize = new System.Drawing.Size(1077, 483);
             this.Controls.Add(this.tableLayoutPanel1);
             this.Controls.Add(this._explorerStrip);
             this.Controls.Add(this._buttonCancel);
@@ -605,10 +625,12 @@
             this.Controls.Add(this._buttonReplace);
             this.Controls.Add(this._buttonFind);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "FindReplace";
             this.Text = "Find and Replace";
+            this.TopMost = true;
             this.groupBox1.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();

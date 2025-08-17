@@ -37,43 +37,48 @@
             // 
             // _sizeField
             // 
-            this._sizeField.Location = new System.Drawing.Point(56, 26);
+            this._sizeField.Location = new System.Drawing.Point(84, 40);
+            this._sizeField.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this._sizeField.Name = "_sizeField";
-            this._sizeField.Size = new System.Drawing.Size(67, 20);
+            this._sizeField.Size = new System.Drawing.Size(98, 26);
             this._sizeField.TabIndex = 7;
             // 
             // _sizeFieldLabel
             // 
             this._sizeFieldLabel.AutoSize = true;
-            this._sizeFieldLabel.Location = new System.Drawing.Point(12, 29);
+            this._sizeFieldLabel.Location = new System.Drawing.Point(18, 45);
+            this._sizeFieldLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this._sizeFieldLabel.Name = "_sizeFieldLabel";
-            this._sizeFieldLabel.Size = new System.Drawing.Size(30, 13);
+            this._sizeFieldLabel.Size = new System.Drawing.Size(44, 20);
             this._sizeFieldLabel.TabIndex = 6;
             this._sizeFieldLabel.Text = "Size:";
             // 
             // _nameFieldLabel
             // 
             this._nameFieldLabel.AutoSize = true;
-            this._nameFieldLabel.Location = new System.Drawing.Point(12, 9);
+            this._nameFieldLabel.Location = new System.Drawing.Point(18, 14);
+            this._nameFieldLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this._nameFieldLabel.Name = "_nameFieldLabel";
-            this._nameFieldLabel.Size = new System.Drawing.Size(38, 13);
+            this._nameFieldLabel.Size = new System.Drawing.Size(55, 20);
             this._nameFieldLabel.TabIndex = 5;
             this._nameFieldLabel.Text = "Name:";
             // 
             // _nameField
             // 
-            this._nameField.Location = new System.Drawing.Point(56, 6);
+            this._nameField.Location = new System.Drawing.Point(84, 9);
+            this._nameField.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this._nameField.Name = "_nameField";
-            this._nameField.Size = new System.Drawing.Size(209, 20);
+            this._nameField.Size = new System.Drawing.Size(312, 26);
             this._nameField.TabIndex = 4;
             // 
             // _buttonCancel
             // 
             this._buttonCancel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this._buttonCancel.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this._buttonCancel.Location = new System.Drawing.Point(109, 57);
+            this._buttonCancel.Location = new System.Drawing.Point(164, 88);
+            this._buttonCancel.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this._buttonCancel.Name = "_buttonCancel";
-            this._buttonCancel.Size = new System.Drawing.Size(75, 23);
+            this._buttonCancel.Size = new System.Drawing.Size(112, 35);
             this._buttonCancel.TabIndex = 9;
             this._buttonCancel.Text = "Cancel";
             this._buttonCancel.UseVisualStyleBackColor = true;
@@ -81,21 +86,22 @@
             // _buttonOK
             // 
             this._buttonOK.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this._buttonOK.Location = new System.Drawing.Point(190, 57);
+            this._buttonOK.Location = new System.Drawing.Point(285, 88);
+            this._buttonOK.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this._buttonOK.Name = "_buttonOK";
-            this._buttonOK.Size = new System.Drawing.Size(75, 23);
+            this._buttonOK.Size = new System.Drawing.Size(112, 35);
             this._buttonOK.TabIndex = 8;
             this._buttonOK.Text = "OK";
             this._buttonOK.UseVisualStyleBackColor = true;
             this._buttonOK.Click += new System.EventHandler(this._buttonOK_Click);
             // 
-            // CreateNode
+            // CreateNodeForm
             // 
             this.AcceptButton = this._buttonOK;
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.CancelButton = this._buttonCancel;
-            this.ClientSize = new System.Drawing.Size(277, 92);
+            this.ClientSize = new System.Drawing.Size(416, 142);
             this.Controls.Add(this._buttonCancel);
             this.Controls.Add(this._buttonOK);
             this.Controls.Add(this._sizeField);
@@ -103,12 +109,15 @@
             this.Controls.Add(this._nameFieldLabel);
             this.Controls.Add(this._nameField);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
-            this.Name = "CreateNode";
+            this.Name = "CreateNodeForm";
             this.ShowIcon = false;
             this.ShowInTaskbar = false;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Create Tag...";
+            this.TopMost = true;
             this.ResumeLayout(false);
             this.PerformLayout();
 

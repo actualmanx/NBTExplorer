@@ -33,15 +33,15 @@
             this._buttonImport = new System.Windows.Forms.Button();
             this._buttonExport = new System.Windows.Forms.Button();
             this.viewTabs = new System.Windows.Forms.TabControl();
-            this.statusStrip1.SuspendLayout();
-            this.viewTabs.SuspendLayout();
             this.SuspendLayout();
             // 
             // statusStrip1
             // 
-            this.statusStrip1.Location = new System.Drawing.Point(0, 333);
+            this.statusStrip1.ImageScalingSize = new System.Drawing.Size(24, 24);
+            this.statusStrip1.Location = new System.Drawing.Point(0, 524);
             this.statusStrip1.Name = "statusStrip1";
-            this.statusStrip1.Size = new System.Drawing.Size(532, 22);
+            this.statusStrip1.Padding = new System.Windows.Forms.Padding(2, 0, 21, 0);
+            this.statusStrip1.Size = new System.Drawing.Size(798, 22);
             this.statusStrip1.TabIndex = 1;
             this.statusStrip1.Text = "statusStrip1";
             // 
@@ -49,9 +49,10 @@
             // 
             this._buttonCancel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this._buttonCancel.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this._buttonCancel.Location = new System.Drawing.Point(364, 307);
+            this._buttonCancel.Location = new System.Drawing.Point(546, 472);
+            this._buttonCancel.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this._buttonCancel.Name = "_buttonCancel";
-            this._buttonCancel.Size = new System.Drawing.Size(75, 23);
+            this._buttonCancel.Size = new System.Drawing.Size(112, 35);
             this._buttonCancel.TabIndex = 13;
             this._buttonCancel.Text = "Cancel";
             this._buttonCancel.UseVisualStyleBackColor = true;
@@ -59,9 +60,10 @@
             // _buttonOK
             // 
             this._buttonOK.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this._buttonOK.Location = new System.Drawing.Point(445, 307);
+            this._buttonOK.Location = new System.Drawing.Point(668, 472);
+            this._buttonOK.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this._buttonOK.Name = "_buttonOK";
-            this._buttonOK.Size = new System.Drawing.Size(75, 23);
+            this._buttonOK.Size = new System.Drawing.Size(112, 35);
             this._buttonOK.TabIndex = 12;
             this._buttonOK.Text = "OK";
             this._buttonOK.UseVisualStyleBackColor = true;
@@ -69,9 +71,10 @@
             // 
             // _buttonImport
             // 
-            this._buttonImport.Location = new System.Drawing.Point(12, 307);
+            this._buttonImport.Location = new System.Drawing.Point(18, 472);
+            this._buttonImport.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this._buttonImport.Name = "_buttonImport";
-            this._buttonImport.Size = new System.Drawing.Size(75, 23);
+            this._buttonImport.Size = new System.Drawing.Size(112, 35);
             this._buttonImport.TabIndex = 14;
             this._buttonImport.Text = "Import";
             this._buttonImport.UseVisualStyleBackColor = true;
@@ -79,9 +82,10 @@
             // 
             // _buttonExport
             // 
-            this._buttonExport.Location = new System.Drawing.Point(93, 307);
+            this._buttonExport.Location = new System.Drawing.Point(140, 472);
+            this._buttonExport.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this._buttonExport.Name = "_buttonExport";
-            this._buttonExport.Size = new System.Drawing.Size(75, 23);
+            this._buttonExport.Size = new System.Drawing.Size(112, 35);
             this._buttonExport.TabIndex = 15;
             this._buttonExport.Text = "Export";
             this._buttonExport.UseVisualStyleBackColor = true;
@@ -89,18 +93,19 @@
             // 
             // viewTabs
             // 
-            this.viewTabs.Location = new System.Drawing.Point(12, 12);
+            this.viewTabs.Location = new System.Drawing.Point(18, 18);
+            this.viewTabs.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.viewTabs.Name = "viewTabs";
             this.viewTabs.SelectedIndex = 0;
-            this.viewTabs.Size = new System.Drawing.Size(508, 289);
+            this.viewTabs.Size = new System.Drawing.Size(762, 445);
             this.viewTabs.TabIndex = 16;
             // 
             // HexEditor
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.CancelButton = this._buttonCancel;
-            this.ClientSize = new System.Drawing.Size(532, 355);
+            this.ClientSize = new System.Drawing.Size(798, 546);
             this.Controls.Add(this.viewTabs);
             this.Controls.Add(this._buttonExport);
             this.Controls.Add(this._buttonImport);
@@ -108,12 +113,12 @@
             this.Controls.Add(this._buttonOK);
             this.Controls.Add(this.statusStrip1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "HexEditor";
             this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "HexEditor";
-            this.statusStrip1.ResumeLayout(false);
-            this.statusStrip1.PerformLayout();
-            this.viewTabs.ResumeLayout(false);
+            this.TopMost = true;
             this.ResumeLayout(false);
             this.PerformLayout();
 
