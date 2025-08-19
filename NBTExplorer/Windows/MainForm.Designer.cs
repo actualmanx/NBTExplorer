@@ -138,7 +138,7 @@
             this.toolStripSeparator8,
             this._menuItemExit});
             this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
-            this.fileToolStripMenuItem.Size = new System.Drawing.Size(54, 29);
+            this.fileToolStripMenuItem.Size = new System.Drawing.Size(54, 32);
             this.fileToolStripMenuItem.Text = "&File";
             // 
             // _menuItemOpen
@@ -245,7 +245,7 @@
             this._menuItemMoveDown});
             this.editToolStripMenuItem.Name = "editToolStripMenuItem";
             this.editToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Up)));
-            this.editToolStripMenuItem.Size = new System.Drawing.Size(58, 29);
+            this.editToolStripMenuItem.Size = new System.Drawing.Size(58, 32);
             this.editToolStripMenuItem.Text = "&Edit";
             // 
             // _menuItemCut
@@ -334,7 +334,7 @@
             this.toolStripSeparator11,
             this.findBlockToolStripMenuItem});
             this.searchToolStripMenuItem.Name = "searchToolStripMenuItem";
-            this.searchToolStripMenuItem.Size = new System.Drawing.Size(80, 29);
+            this.searchToolStripMenuItem.Size = new System.Drawing.Size(80, 32);
             this.searchToolStripMenuItem.Text = "&Search";
             // 
             // _menuItemFind
@@ -383,7 +383,7 @@
             this.helpToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this._menuItemAbout});
             this.helpToolStripMenuItem.Name = "helpToolStripMenuItem";
-            this.helpToolStripMenuItem.Size = new System.Drawing.Size(65, 29);
+            this.helpToolStripMenuItem.Size = new System.Drawing.Size(65, 32);
             this.helpToolStripMenuItem.Text = "&Help";
             // 
             // _menuItemAbout
@@ -419,6 +419,7 @@
             // 
             // toolStrip1
             // 
+            this.toolStrip1.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.toolStrip1.ImageScalingSize = new System.Drawing.Size(24, 24);
             this.toolStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this._buttonOpen,
@@ -458,10 +459,11 @@
             // _buttonOpen
             // 
             this._buttonOpen.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this._buttonOpen.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this._buttonOpen.Image = ((System.Drawing.Image)(resources.GetObject("_buttonOpen.Image")));
             this._buttonOpen.ImageTransparentColor = System.Drawing.Color.Magenta;
             this._buttonOpen.Name = "_buttonOpen";
-            this._buttonOpen.Size = new System.Drawing.Size(34, 28);
+            this._buttonOpen.Size = new System.Drawing.Size(34, 33);
             this._buttonOpen.Text = "Open NBT Data Source";
             // 
             // _buttonOpenFolder
@@ -470,7 +472,7 @@
             this._buttonOpenFolder.Image = ((System.Drawing.Image)(resources.GetObject("_buttonOpenFolder.Image")));
             this._buttonOpenFolder.ImageTransparentColor = System.Drawing.Color.Magenta;
             this._buttonOpenFolder.Name = "_buttonOpenFolder";
-            this._buttonOpenFolder.Size = new System.Drawing.Size(34, 28);
+            this._buttonOpenFolder.Size = new System.Drawing.Size(34, 33);
             this._buttonOpenFolder.Text = "Open Folder";
             // 
             // _buttonSave
@@ -479,7 +481,7 @@
             this._buttonSave.Image = ((System.Drawing.Image)(resources.GetObject("_buttonSave.Image")));
             this._buttonSave.ImageTransparentColor = System.Drawing.Color.Magenta;
             this._buttonSave.Name = "_buttonSave";
-            this._buttonSave.Size = new System.Drawing.Size(34, 28);
+            this._buttonSave.Size = new System.Drawing.Size(34, 33);
             this._buttonSave.Text = "Save All Modified Tags";
             // 
             // _buttonRefresh
@@ -488,14 +490,14 @@
             this._buttonRefresh.Image = ((System.Drawing.Image)(resources.GetObject("_buttonRefresh.Image")));
             this._buttonRefresh.ImageTransparentColor = System.Drawing.Color.Magenta;
             this._buttonRefresh.Name = "_buttonRefresh";
-            this._buttonRefresh.Size = new System.Drawing.Size(34, 28);
+            this._buttonRefresh.Size = new System.Drawing.Size(34, 33);
             this._buttonRefresh.Text = "Refresh Content From Disk";
             this._buttonRefresh.Click += new System.EventHandler(this._buttonRefresh_Click);
             // 
             // toolStripSeparator1
             // 
             this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(6, 33);
+            this.toolStripSeparator1.Size = new System.Drawing.Size(6, 38);
             // 
             // _buttonCut
             // 
@@ -503,7 +505,7 @@
             this._buttonCut.Image = ((System.Drawing.Image)(resources.GetObject("_buttonCut.Image")));
             this._buttonCut.ImageTransparentColor = System.Drawing.Color.Magenta;
             this._buttonCut.Name = "_buttonCut";
-            this._buttonCut.Size = new System.Drawing.Size(34, 28);
+            this._buttonCut.Size = new System.Drawing.Size(34, 33);
             this._buttonCut.Text = "Cut";
             // 
             // _buttonCopy
@@ -512,7 +514,7 @@
             this._buttonCopy.Image = ((System.Drawing.Image)(resources.GetObject("_buttonCopy.Image")));
             this._buttonCopy.ImageTransparentColor = System.Drawing.Color.Magenta;
             this._buttonCopy.Name = "_buttonCopy";
-            this._buttonCopy.Size = new System.Drawing.Size(34, 28);
+            this._buttonCopy.Size = new System.Drawing.Size(34, 33);
             this._buttonCopy.Text = "Copy";
             // 
             // _buttonPaste
@@ -521,13 +523,13 @@
             this._buttonPaste.Image = ((System.Drawing.Image)(resources.GetObject("_buttonPaste.Image")));
             this._buttonPaste.ImageTransparentColor = System.Drawing.Color.Magenta;
             this._buttonPaste.Name = "_buttonPaste";
-            this._buttonPaste.Size = new System.Drawing.Size(34, 28);
+            this._buttonPaste.Size = new System.Drawing.Size(34, 33);
             this._buttonPaste.Text = "Paste";
             // 
             // toolStripSeparator6
             // 
             this.toolStripSeparator6.Name = "toolStripSeparator6";
-            this.toolStripSeparator6.Size = new System.Drawing.Size(6, 33);
+            this.toolStripSeparator6.Size = new System.Drawing.Size(6, 38);
             // 
             // _buttonRename
             // 
@@ -535,7 +537,7 @@
             this._buttonRename.Image = ((System.Drawing.Image)(resources.GetObject("_buttonRename.Image")));
             this._buttonRename.ImageTransparentColor = System.Drawing.Color.Magenta;
             this._buttonRename.Name = "_buttonRename";
-            this._buttonRename.Size = new System.Drawing.Size(34, 28);
+            this._buttonRename.Size = new System.Drawing.Size(34, 33);
             this._buttonRename.Text = "Rename Tag";
             // 
             // _buttonEdit
@@ -544,7 +546,7 @@
             this._buttonEdit.Image = ((System.Drawing.Image)(resources.GetObject("_buttonEdit.Image")));
             this._buttonEdit.ImageTransparentColor = System.Drawing.Color.Magenta;
             this._buttonEdit.Name = "_buttonEdit";
-            this._buttonEdit.Size = new System.Drawing.Size(34, 28);
+            this._buttonEdit.Size = new System.Drawing.Size(34, 33);
             this._buttonEdit.Text = "Edit Tag Value";
             // 
             // _buttonDelete
@@ -553,13 +555,13 @@
             this._buttonDelete.Image = ((System.Drawing.Image)(resources.GetObject("_buttonDelete.Image")));
             this._buttonDelete.ImageTransparentColor = System.Drawing.Color.Magenta;
             this._buttonDelete.Name = "_buttonDelete";
-            this._buttonDelete.Size = new System.Drawing.Size(34, 28);
+            this._buttonDelete.Size = new System.Drawing.Size(34, 33);
             this._buttonDelete.Text = "Delete Tag";
             // 
             // toolStripSeparator2
             // 
             this.toolStripSeparator2.Name = "toolStripSeparator2";
-            this.toolStripSeparator2.Size = new System.Drawing.Size(6, 33);
+            this.toolStripSeparator2.Size = new System.Drawing.Size(6, 38);
             // 
             // _buttonAddTagByte
             // 
@@ -567,7 +569,7 @@
             this._buttonAddTagByte.Image = ((System.Drawing.Image)(resources.GetObject("_buttonAddTagByte.Image")));
             this._buttonAddTagByte.ImageTransparentColor = System.Drawing.Color.Magenta;
             this._buttonAddTagByte.Name = "_buttonAddTagByte";
-            this._buttonAddTagByte.Size = new System.Drawing.Size(34, 28);
+            this._buttonAddTagByte.Size = new System.Drawing.Size(34, 33);
             this._buttonAddTagByte.Text = "Add Byte Tag";
             // 
             // _buttonAddTagShort
@@ -576,7 +578,7 @@
             this._buttonAddTagShort.Image = ((System.Drawing.Image)(resources.GetObject("_buttonAddTagShort.Image")));
             this._buttonAddTagShort.ImageTransparentColor = System.Drawing.Color.Magenta;
             this._buttonAddTagShort.Name = "_buttonAddTagShort";
-            this._buttonAddTagShort.Size = new System.Drawing.Size(34, 28);
+            this._buttonAddTagShort.Size = new System.Drawing.Size(34, 33);
             this._buttonAddTagShort.Text = "Add Short Tag";
             // 
             // _buttonAddTagInt
@@ -585,7 +587,7 @@
             this._buttonAddTagInt.Image = ((System.Drawing.Image)(resources.GetObject("_buttonAddTagInt.Image")));
             this._buttonAddTagInt.ImageTransparentColor = System.Drawing.Color.Magenta;
             this._buttonAddTagInt.Name = "_buttonAddTagInt";
-            this._buttonAddTagInt.Size = new System.Drawing.Size(34, 28);
+            this._buttonAddTagInt.Size = new System.Drawing.Size(34, 33);
             this._buttonAddTagInt.Text = "Add Int Tag";
             // 
             // _buttonAddTagLong
@@ -594,7 +596,7 @@
             this._buttonAddTagLong.Image = ((System.Drawing.Image)(resources.GetObject("_buttonAddTagLong.Image")));
             this._buttonAddTagLong.ImageTransparentColor = System.Drawing.Color.Magenta;
             this._buttonAddTagLong.Name = "_buttonAddTagLong";
-            this._buttonAddTagLong.Size = new System.Drawing.Size(34, 28);
+            this._buttonAddTagLong.Size = new System.Drawing.Size(34, 33);
             this._buttonAddTagLong.Text = "Add Long Tag";
             // 
             // _buttonAddTagFloat
@@ -603,7 +605,7 @@
             this._buttonAddTagFloat.Image = ((System.Drawing.Image)(resources.GetObject("_buttonAddTagFloat.Image")));
             this._buttonAddTagFloat.ImageTransparentColor = System.Drawing.Color.Magenta;
             this._buttonAddTagFloat.Name = "_buttonAddTagFloat";
-            this._buttonAddTagFloat.Size = new System.Drawing.Size(34, 28);
+            this._buttonAddTagFloat.Size = new System.Drawing.Size(34, 33);
             this._buttonAddTagFloat.Text = "Add Float Tag";
             // 
             // _buttonAddTagDouble
@@ -612,7 +614,7 @@
             this._buttonAddTagDouble.Image = ((System.Drawing.Image)(resources.GetObject("_buttonAddTagDouble.Image")));
             this._buttonAddTagDouble.ImageTransparentColor = System.Drawing.Color.Magenta;
             this._buttonAddTagDouble.Name = "_buttonAddTagDouble";
-            this._buttonAddTagDouble.Size = new System.Drawing.Size(34, 28);
+            this._buttonAddTagDouble.Size = new System.Drawing.Size(34, 33);
             this._buttonAddTagDouble.Text = "Add Double Tag";
             // 
             // _buttonAddTagByteArray
@@ -621,7 +623,7 @@
             this._buttonAddTagByteArray.Image = ((System.Drawing.Image)(resources.GetObject("_buttonAddTagByteArray.Image")));
             this._buttonAddTagByteArray.ImageTransparentColor = System.Drawing.Color.Magenta;
             this._buttonAddTagByteArray.Name = "_buttonAddTagByteArray";
-            this._buttonAddTagByteArray.Size = new System.Drawing.Size(34, 28);
+            this._buttonAddTagByteArray.Size = new System.Drawing.Size(34, 33);
             this._buttonAddTagByteArray.Text = "Add Byte Array Tag";
             // 
             // _buttonAddTagIntArray
@@ -631,7 +633,7 @@
             this._buttonAddTagIntArray.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this._buttonAddTagIntArray.ImageTransparentColor = System.Drawing.Color.Magenta;
             this._buttonAddTagIntArray.Name = "_buttonAddTagIntArray";
-            this._buttonAddTagIntArray.Size = new System.Drawing.Size(34, 28);
+            this._buttonAddTagIntArray.Size = new System.Drawing.Size(34, 33);
             this._buttonAddTagIntArray.Text = "Add Int Array Tag";
             // 
             // _buttonAddTagLongArray
@@ -641,7 +643,7 @@
             this._buttonAddTagLongArray.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this._buttonAddTagLongArray.ImageTransparentColor = System.Drawing.Color.Magenta;
             this._buttonAddTagLongArray.Name = "_buttonAddTagLongArray";
-            this._buttonAddTagLongArray.Size = new System.Drawing.Size(34, 28);
+            this._buttonAddTagLongArray.Size = new System.Drawing.Size(34, 33);
             this._buttonAddTagLongArray.Text = "Add Long Array Tag";
             // 
             // _buttonAddTagString
@@ -650,7 +652,7 @@
             this._buttonAddTagString.Image = ((System.Drawing.Image)(resources.GetObject("_buttonAddTagString.Image")));
             this._buttonAddTagString.ImageTransparentColor = System.Drawing.Color.Magenta;
             this._buttonAddTagString.Name = "_buttonAddTagString";
-            this._buttonAddTagString.Size = new System.Drawing.Size(34, 28);
+            this._buttonAddTagString.Size = new System.Drawing.Size(34, 33);
             this._buttonAddTagString.Text = "Add String Tag";
             // 
             // _buttonAddTagList
@@ -659,7 +661,7 @@
             this._buttonAddTagList.Image = ((System.Drawing.Image)(resources.GetObject("_buttonAddTagList.Image")));
             this._buttonAddTagList.ImageTransparentColor = System.Drawing.Color.Magenta;
             this._buttonAddTagList.Name = "_buttonAddTagList";
-            this._buttonAddTagList.Size = new System.Drawing.Size(34, 28);
+            this._buttonAddTagList.Size = new System.Drawing.Size(34, 33);
             this._buttonAddTagList.Text = "Add List Tag";
             // 
             // _buttonAddTagCompound
@@ -668,13 +670,13 @@
             this._buttonAddTagCompound.Image = ((System.Drawing.Image)(resources.GetObject("_buttonAddTagCompound.Image")));
             this._buttonAddTagCompound.ImageTransparentColor = System.Drawing.Color.Magenta;
             this._buttonAddTagCompound.Name = "_buttonAddTagCompound";
-            this._buttonAddTagCompound.Size = new System.Drawing.Size(34, 28);
+            this._buttonAddTagCompound.Size = new System.Drawing.Size(34, 33);
             this._buttonAddTagCompound.Text = "Add Compound Tag";
             // 
             // toolStripSeparator5
             // 
             this.toolStripSeparator5.Name = "toolStripSeparator5";
-            this.toolStripSeparator5.Size = new System.Drawing.Size(6, 33);
+            this.toolStripSeparator5.Size = new System.Drawing.Size(6, 38);
             // 
             // _buttonFindNext
             // 
@@ -682,7 +684,7 @@
             this._buttonFindNext.Image = ((System.Drawing.Image)(resources.GetObject("_buttonFindNext.Image")));
             this._buttonFindNext.ImageTransparentColor = System.Drawing.Color.Magenta;
             this._buttonFindNext.Name = "_buttonFindNext";
-            this._buttonFindNext.Size = new System.Drawing.Size(34, 28);
+            this._buttonFindNext.Size = new System.Drawing.Size(34, 33);
             this._buttonFindNext.Text = "Find / Find Next";
             // 
             // BottomToolStripPanel
@@ -741,10 +743,11 @@
             this._nodeTree.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this._nodeTree.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this._nodeTree.ImageIndex = 0;
             this._nodeTree.ImageList = this.imageList1;
-            this._nodeTree.ItemHeight = 18;
-            this._nodeTree.Location = new System.Drawing.Point(0, 75);
+            this._nodeTree.ItemHeight = 30;
+            this._nodeTree.Location = new System.Drawing.Point(-7, 81);
             this._nodeTree.Margin = new System.Windows.Forms.Padding(0);
             this._nodeTree.Name = "_nodeTree";
             this._nodeTree.SelectedImageIndex = 0;
@@ -761,6 +764,7 @@
             this.Controls.Add(this.toolStrip1);
             this.Controls.Add(this._nodeTree);
             this.Controls.Add(this.menuStrip1);
+            this.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menuStrip1;
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
