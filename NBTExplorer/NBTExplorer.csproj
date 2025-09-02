@@ -96,9 +96,8 @@
     <ApplicationManifest>app.manifest</ApplicationManifest>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="NBTModel, Version=1.1.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>bin\Debug\NBTModel.dll</HintPath>
+    <Reference Include="NBTModel">
+      <HintPath>..\NBTModel\bin\Debug\NBTModel.dll</HintPath>
     </Reference>
     <Reference Include="Substrate">
       <HintPath>..\References\Substrate.dll</HintPath>
